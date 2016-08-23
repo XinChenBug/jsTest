@@ -1,0 +1,112 @@
+
+section,header,nav,article{
+    display: block;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    margin: 1em 10% ;
+
+/*
+    background-image: url(../images/nav.png);
+    background-repeat:repeat-x;
+
+    background-attachment:fixed;             使得背景图片不随滚动条滚动
+    background-position: top left;
+*/
+
+    max-width:80em;
+}
+
+header{
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-width: .1em;
+    border-style:  solid;
+    border-bottom-width: 0;
+
+}
+
+header nav{
+    border-width:0 0.1em;
+    border-style: solid;
+    padding-left: 10%;
+
+
+}
+
+header nav ul{
+    width:100%;
+    overflow:hidden;
+ /*   border-left: 0.1em solid;*/
+    height: 1.5em;
+    font:2em;
+}
+
+header nav li{
+    border-left: 0.1em solid #9999aa;
+    padding: 2%;
+    display: inline;
+    margin: 2%;
+    text-align: center;
+
+
+}
+
+article{
+    padding: 2em 10%;
+    line-height: 1.8em;
+
+}
+
+
+#about header
+{
+
+    background-image: url(../images/about.jpg);
+}
+
+#photos header
+{
+
+    background-image: url(../images/photo.jpg);
+}
+
+#live header
+{
+    background-image: url(../images/live.jpg);
+}
+#contact header
+{
+    background-image: url(../images/contact.jpg);
+}
+
+
+
+#slideshow
+{
+    width:180px;
+    height: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+#preview
+{
+    position:absolute;
+    border-width: 0px;
+    outline-width: 0;
+}
+
+
+#imagegallery li
+{
+    display:inline;
+}
+

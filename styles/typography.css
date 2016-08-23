@@ -1,0 +1,17 @@
+body{
+    font-size: 76%;
+    font-family: "Helvetica","Arial",sans-serif;
+}
+
+
+/*   body * {  不了解本语法  */
+body * {
+    font-size: 1em;
+}
+
+a{
+
+    font-weight: bold;
+    text-decoration: none;
+
+}
